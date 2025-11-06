@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-task-19/static/js/main.5dad7f52.js",
+    "main.js": "/react-task-19/static/js/main.d4d213d9.js",
     "index.html": "/react-task-19/index.html",
-    "main.5dad7f52.js.map": "/react-task-19/static/js/main.5dad7f52.js.map"
+    "main.d4d213d9.js.map": "/react-task-19/static/js/main.d4d213d9.js.map"
   },
   "entrypoints": [
-    "static/js/main.5dad7f52.js"
+    "static/js/main.d4d213d9.js"
   ]
 }
