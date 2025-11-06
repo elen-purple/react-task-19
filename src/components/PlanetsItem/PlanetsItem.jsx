@@ -1,26 +1,26 @@
-import { Item, Title, Wrap, Text } from "./PlanetsItemStyled";
+import { Item, Title, Wrap, Text, Span } from "./PlanetsItemStyled";
 
 export const PlanetsItem = ({
   planet: { name, order, hasRings, diameter, type, moons = null },
 }) => {
   return (
-    <Item>
+    <Item id={order}>
       <Wrap>
         <Title>{name}</Title>
         <Text>
-          The planet is in <span>{order}</span> order from the Sun. The diamer
-          of the planet is <span>{diameter}</span>km
+          The planet is in <Span>{order}</Span> order from the Sun. The diamer
+          of the planet is <Span>{diameter}km</Span>
           {hasRings ? <> and it has rings</> : <></>}. The type of the planet is{" "}
-          <span>{type}</span>.
+          <Span>{type}</Span>.
           {moons ? (
             <>
               {" "}
-              It has <span>{moons.length}</span> moons:{" "}
+              It has <Span>{moons.length}</Span> moons:{" "}
               {moons.map(({ name, diameter }, index) => (
-                <>
-                  <span>{name}</span> with diameter <span>{diameter}</span>km
+                <span key={index}>
+                  <Span>{name}</Span> with diameter <Span>{diameter}km</Span>
                   {index < moons.length - 1 ? <>, </> : <></>}
-                </>
+                </span>
               ))}
               .
             </>

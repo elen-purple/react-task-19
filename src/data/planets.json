@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Mercury",
+    "order": 1,
+    "hasRings": false,
+    "diameter": 4879,
+    "type": "terrestrial"
+  },
+  {
+    "name": "Venus",
+    "order": 2,
+    "hasRings": false,
+    "diameter": 12104,
+    "type": "terrestrial"
+  },
+  {
+    "name": "Earth",
+    "order": 3,
+    "hasRings": false,
+    "diameter": 12742,
+    "type": "terrestrial",
+    "moons": [{ "name": "Moon", "diameter": 3475 }]
+  },
+  {
+    "name": "Mars",
+    "order": 4,
+    "hasRings": false,
+    "diameter": 6779,
+    "type": "terrestrial",
+    "moons": [
+      { "name": "Phobos", "diameter": 22.4 },
+      { "name": "Deimos", "diameter": 12.4 }
+    ]
+  },
+  {
+    "name": "Jupiter",
+    "order": 5,
+    "hasRings": true,
+    "diameter": 139820,
+    "type": "gas giant",
+    "moons": [
+      { "name": "Io", "diameter": 3643 },
+      { "name": "Europa", "diameter": 3122 },
+      { "name": "Ganymede", "diameter": 5268 },
+      { "name": "Callisto", "diameter": 4820 }
+    ]
+  },
+  {
+    "name": "Saturn",
+    "order": 6,
+    "hasRings": true,
+    "diameter": 116460,
+    "type": "gas giant",
+    "moons": [
+      { "name": "Titan", "diameter": 5150 },
+      { "name": "Enceladus", "diameter": 504 }
+    ]
+  },
+  {
+    "name": "Uranus",
+    "order": 7,
+    "hasRings": true,
+    "diameter": 50724,
+    "type": "ice giant",
+    "moons": [
+      { "name": "Titania", "diameter": 1578 },
+      { "name": "Oberon", "diameter": 1523 }
+    ]
+  },
+  {
+    "name": "Neptune",
+    "order": 8,
+    "hasRings": true,
+    "diameter": 49244,
+    "type": "ice giant",
+    "moons": [{ "name": "Triton", "diameter": 2706 }]
+  },
+  {
+    "name": "Pluto",
+    "order": 9,
+    "hasRings": false,
+    "diameter": 2376,
+    "type": "dwarf planet",
+    "moons": [{ "name": "Charon", "diameter": 1212 }]
+  },
+  {
+    "name": "Ceres",
+    "order": 10,
+    "hasRings": false,
+    "diameter": 946,
+    "type": "dwarf planet"
+  },
+  {
+    "name": "Haumea",
+    "order": 11,
+    "hasRings": false,
+    "diameter": 1632,
+    "type": "dwarf planet"
+  },
+  {
+    "name": "Makemake",
+    "order": 12,
+    "hasRings": false,
+    "diameter": 1430,
+    "type": "dwarf planet"
+  },
+  {
+    "name": "Eris",
+    "order": 13,
+    "hasRings": false,
+    "diameter": 2326,
+    "type": "dwarf planet"
+  }
+]

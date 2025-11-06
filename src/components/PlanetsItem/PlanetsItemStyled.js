@@ -24,3 +24,8 @@ export const Title = styled.h3`
 export const Text = styled.p`
   color: #bed2edff;
 `;
+
+export const Span = styled.span`
+  color: #a6aadcff;
+  font-weight: 700;
+`;
